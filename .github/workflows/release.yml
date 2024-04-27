@@ -5,6 +5,8 @@ on:
     tags:
       - "*"
   workflow_dispatch:
+    tags:
+      - "*"
 env:
   PLUGIN_NAME: omnisearch
   DIST_FOLDER: ./dist
